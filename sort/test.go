@@ -25,7 +25,9 @@ func main(){
 		// insertion sort
 		// isort(testSuiteB[i])
 		// shell sort
-		shsort(testSuiteB[i])
+		// shsort(testSuiteB[i])
+		// heap sort
+		hsort(testSuiteB[i])
 		if !equal(testSuiteA[i], testSuiteB[i]) {
 			fmt.Printf("There is an error！\nSlice is %v\n", testSuite[i])
 			fmt.Printf("The answer should be %v\nbut your answer is %v", testSuiteA[i], testSuiteB[i])
