@@ -1,6 +1,6 @@
-package main
+package sort
 
-func shsort(a []int) {
+func Shsort(a []int) {
 	l := len(a)
 	if l==0 || l == 1 {
 		return

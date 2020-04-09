@@ -1,9 +1,9 @@
-package sort
+package main
 
 import (
 	"bufio"
 	"fmt"
-	main2 "golang_basic_algorithm/sort"
+	sort2 "golang_basic_algorithm/sort"
 	"io"
 	"os"
 	"sort"
@@ -11,7 +11,11 @@ import (
 	"strings"
 )
 
-func main(){
+//func main()  {
+//	sortTest()
+//}
+
+func sortTest(){
 	testSuite := getTestSuite()
 	testSuiteA := getTestSuite()
 	testSuiteB := getTestSuite()
@@ -28,7 +32,7 @@ func main(){
 		// shell sort
 		// shsort(testSuiteB[i])
 		// heap sort
-		main2.hsort(testSuiteB[i])
+		sort2.Hsort(testSuiteB[i])
 		if !equal(testSuiteA[i], testSuiteB[i]) {
 			fmt.Printf("There is an error！\nSlice is %v\n", testSuite[i])
 			fmt.Printf("The answer should be %v\nbut your answer is %v", testSuiteA[i], testSuiteB[i])

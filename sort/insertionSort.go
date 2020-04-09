@@ -1,6 +1,6 @@
-package main
+package sort
 
-func isort(a []int)  {
+func Isort(a []int)  {
 	l := len(a)
 	if l==0 || l==1 {
 		return

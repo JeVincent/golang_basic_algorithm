@@ -1,6 +1,6 @@
-package main
+package sort
 
-func hsort(a []int) {
+func Hsort(a []int) {
 	l := len(a)
 	if l==0 || l==1 {
 		return

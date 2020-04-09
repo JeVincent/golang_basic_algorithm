@@ -1,6 +1,6 @@
-package main
+package sort
 
-func qsort(a []int)  {
+func Qsort(a []int)  {
 	quicksort(a, 0, len(a)-1)
 }
 
